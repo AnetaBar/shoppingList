@@ -1,0 +1,50 @@
+:root {
+    --main-font: 12px 'Lato', Arial, Helvetica, sans-serif;
+}
+
+body {
+    font: var(--main-font);
+    margin-left: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    font: var(--main-font);
+}
+
+li span {
+	border-bottom: 1px solid black;
+    padding: 3px 5px;
+}
+
+#productList {
+    padding-left: 0px;
+}
+
+#productQuantity {
+    width: 40px;
+}
+
+.singleRow {
+	list-style: none;
+	display: flex;
+	margin: 0;
+    padding: 0;
+    width: 20%;
+}
+
+.productNameCell {
+    width: 90%;
+}
+
+.productQuantityCell {
+    width: 10%;
+}
+
+.invalidTF {
+    border: 1px solid red;
+    box-shadow: 0 0 5px red;
+}

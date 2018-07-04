@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lista zakupów</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Quicksand" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <form>
+            <input id="productName" required type="text" placeholder="Nazwa produktu">
+            <input id="productQuantity" type="number" min="1" value="1">
+            <input type="button" id="saveBtn" value="Zapisz">
+            <input type="button" id="clearBtn" value="Wyczyść listę">
+        </form>
+        <ul id="productList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
